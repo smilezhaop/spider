@@ -4,3 +4,7 @@ Content-Type:application/x-www-form-urlencoded
 url=http://music.163.com/#/song?id=35847388
 
 ###
+POST http://localhost:8081
+Content-Type:application/x-www-form-urlencoded
+
+url=http:music.163.com/#/discover/playlist
