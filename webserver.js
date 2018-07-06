@@ -45,5 +45,7 @@ if (service) {
   console.log('Web server running on port' + port);
 } else {
   console.log('Error:Could not create web server listening on port' + port);
+  phantom.exit(1);
+
 
 }

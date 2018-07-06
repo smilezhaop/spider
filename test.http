@@ -10,3 +10,13 @@ Content-Type:application/x-www-form-urlencoded
 url=http:music.163.com/#/discover/playlist
 
 ###
+
+GET http://localhost:8080/demo/queryAll
+
+###
+POST http://localhost:8080/demo/insert
+Content-Type:application/x-www-form-urlencoded
+
+name=test2
+
+###
