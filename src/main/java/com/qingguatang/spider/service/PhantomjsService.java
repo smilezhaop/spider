@@ -27,7 +27,7 @@ import org.springframework.stereotype.Component;
 public class PhantomjsService {
 
   private static final Logger logger = LoggerFactory.getLogger(PhantomjsService.class);
-  private static final ExecutorService threadPool = Executors.newFixedThreadPool(2);
+  private static final ExecutorService threadPool = Executors.newFixedThreadPool(6);
 
   @Autowired
   private PlayListDAO playListDAO;
